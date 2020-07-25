@@ -1,0 +1,11 @@
+<!--pages/demo/demo.wxml-->
+<view class="container">
+    <view class="upper_rec">
+        <view class="message_rec">{{message}}</view>
+    </view>
+    <view class="main_body">
+        <view><text class="text_rec">{{equation}}</text></view>
+        <view><input class="input_rec" placeholder="your answer" type="number" maxlength="4" bindblur="getNum" value="{{input_value}}"/></view>
+        <view class="bottom_rec">Best Record: {{best_record}}s</view>
+    </view>
+</view>
